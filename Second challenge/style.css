@@ -1,0 +1,214 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:94.5%;
+   
+     background: #1A4341;
+  }
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius:50%;
+    position:relative;
+  }
+  .dot1{
+    width:30px;  
+    height:30px;
+    background:#998235;
+    border-radius:20px;
+    position:absolute;
+    left:20px;
+    top:20px;
+  }
+  .dot2{
+    width:10px;
+    height:10px;
+    background:#998235;
+    border-radius:10px;
+    position:absolute;
+    left:70px;
+    top:20px;
+    z-index:1;
+  }
+  .dot3{
+    width:20px;
+    height:20px;
+    background:#998235;
+    border-radius:20px;
+    position:absolute;
+    top:65px;
+    left:40px;
+  }
+  .line1{
+    width:10px;
+    height:180px;
+    background: #F3AC3C;
+    position:absolute;
+    top:-50px;
+    left:45px;
+    z-index:-1;
+    border-radius:5px
+  }
+  .line2{
+    width:10px;
+    height:180px;
+    background: #F3AC3C;
+    transform:rotate(-60deg);
+    border-radius:5px;
+    position:absolute;
+    top:-35px;
+    z-index:-1;
+    left:54.491662px;
+  }
+  .line3{
+    width:10px;
+    height:180px;
+    background: #F3AC3C;
+    transform:rotate(60deg);
+    border-radius:5px;
+    position:absolute;
+    top:-45.2px;
+    z-index:-1;
+    left:53.498px;
+  }
+ /*
+  .line2{
+    width:10.5px;
+    height:79.9px;
+    background: #F3AC3C;
+    transform:rotate(60deg);
+    border-radius:5px;
+    position:absolute;
+    top:-20px;
+    left:96.7px;
+  }
+  .line3{
+    width:10.45px;
+    height:73.3px;
+    background: #F3AC3C;
+    transform:rotate(120deg);
+     border-radius:10px;
+    position:absolute;
+    left:99.5px;
+    top:44.7px;
+  }
+  */
+  /*
+  .line4{
+    width:10px;
+    height:40px;
+    background: #F3AC3C;
+    border-radius:10px;
+    position:absolute;
+    top:90px;
+    left:45px
+  }
+  .line5{
+    width:10.3px;
+    height:56.4px;
+    background: #F3AC3C;
+    position:absolute;
+    top:47.343px;
+    border-radius:10px;
+    transform:rotate(60deg);
+  }
+  .line6{
+    width:10px;
+    height:34px;
+    background: #F3AC3C;
+    transform:rotate(120deg);
+    position:absolute;
+    right:100px;
+    top:2px;
+    border-radius:10px;
+  }
+//challenge 2 max-volume
+  <div class="volume"></div>
+<div class="hello"></div>
+<div class="speak"></div>
+<div class="path-a"></div>
+<div class="speak-2"></div>
+<div class="path-b"></div>
+<style>
+body{
+ background:#191919;
+ display:grid;
+ justify-content:center;
+ align-items:center;
+ height:94.5%;
+}
+.volume {
+ position:relative;
+ width:200px;
+ height:200px;
+ right:-.5px;
+ top:-1.2px;
+ background: #5DBCF9;
+ clip-path: polygon(50% 0%, 0 51%, 49% 100%);
+}
+.hello{
+ width:60px;
+ height:50px;
+ background:#5DBCF9;
+ position:absolute;
+ border-radius:10px;
+ left:75px;
+}
+.speak{
+ width:160px;
+border-radius:50%;
+ height:180px;
+ right:89px;
+ background:#191919;
+ position:absolute;
+clip-path: ellipse(40% 190% at 23% 60%);
+ transform:rotate(180deg);
+}
+.speak-2{
+ width:120px;
+ height:129px;
+ border-radius:50%;
+ background:#191919;
+ overflow:hidden;
+ position:absolute;
+ z-index:2;
+ right:110px;
+ transform:rotate(180deg);
+ clip-path: ellipse(40% 190% at 23% 60%);
+}
+.path-a{
+ width:185px;
+ height:200px;
+ background:#5DBCF9;
+ position:absolute;
+ border-radius:50%;
+ right:77.7px;
+ z-index:-1;
+ transform:rotate(180deg);
+  clip-path: ellipse(30% 190% at 22.5% 70%);
+}
+.path-b{
+ width:142px;
+ height:150px;
+ border-radius:50%;
+ background:#5DBCF9;
+ right:100px;
+ z-index:1;
+ transform:rotate(180deg);
+  clip-path: ellipse(30% 190% at 23% 70%);
+ position:absolute;
+}
+/*
+.path-b{
+ width:100px;
+ height:100px;
+ position:absolute;
+ border-radius:50%;
+ left:200px;
+ transform:rotate(180deg);
+ background:#5DBCF9;
+ clip-path: ellipse(30% 190% at 22.5% 70%);
+}
+*/
